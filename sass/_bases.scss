@@ -1,3 +1,85 @@
 * {
 font-family: $body_font;
 }
+
+.navbar-default {
+  background-color: $bg_nav;
+  .navbar-center {
+    margin-left: 35%;
+  }
+}
+
+.navbar-default .navbar-nav > li {
+  a {
+    color: $text_color_nav;
+  }
+  a:hover {
+    color: $bg_pink;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: #8B6C36;
+}
+
+.container-slider {
+  padding: 0;
+}
+
+#careers {
+  background-color: $bg_pink;
+  border-top: 0.3em solid #2F1F1FFF;
+}
+
+.careers_info img {
+  @include border-circle(50%, 0.7em, solid, $border-circle);
+}
+
+.careers_info {
+  margin-top: -60px;
+  h4 {
+    font-weight: $bold_text;
+  }
+}
+
+.read_text {
+  background: $border_circle;
+  width: 7em;
+}
+
+#welcome {
+  background-color: $bg_welcome;
+  img {
+    @include border-radius(18%);
+  }
+  h3 {
+    color: #D96C41;
+    font-weight: $bold_text;
+  }
+}
+
+#about-us {
+  background-color: $bg_aboutus;
+  color: #FADC9E;
+  img {
+    @include border-radius(12%);
+  }
+  .img-left {
+    float: left;
+  }
+  .img-right {
+    float: right;
+  }
+}
+
+footer {
+  background-color: $bg_nav;
+  color: #FADC9E;
+  img {
+  @include border-circle(50%, 0.4em, solid, #E08663);
+  background-color: #BFB68D;
+  }
+  b {
+    font-size: 6em;
+  }
+}

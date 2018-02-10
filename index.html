@@ -22,10 +22,21 @@
             </button>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-center">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">About us</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" role="button" href="#">About us <span class="caret"></span></a></li>
               <li><a href="#">Careers</a></li>
               <li><a href="#">Contact us</a></li>
             </ul>
@@ -34,6 +45,138 @@
       </nav>
     </nav>
   </header>
+  <!-- section read more -->
+  <section id="slider">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 container-slider">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="img-responsive" src="assets/img/slide3.jpg" alt="">
+              </div>
 
+              <div class="item">
+                <img class="img-responsive" src="assets/img/slide2.jpg" alt="">
+              </div>
+
+              <div class="item">
+                <img class="img-responsive" src="assets/img/slide1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section careers -->
+  <section id="careers">
+    <div class="container">
+      <div class="row careers_info text-center">
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="assets/img/skin_care_1_thumb.jpg" alt="">
+          <h4>SKIN CARE</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
+          <p class="read_text">READ MORE ...</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="assets/img/spa_ treatments_thumb.jpg" alt="">
+          <h4>SPA TREATMENTS</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
+          <p class="read_text">READ MORE ...</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="assets/img/aromatherapy_1_thumb.jpg" alt="">
+          <h4>AROMATHERAPY</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
+          <p class="read_text">READ MORE ...</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <img src="assets/img/massage_thumb.jpg" alt="">
+          <h4>MASSAGE</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
+          <p class="read_text">READ MORE ...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="welcome">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-4">
+          <img src="assets/img/welcome_thumb.jpg" alt="welcome">
+        </div>
+        <div class="col-lg-offset-1 col-lg-7 col-md-offset-1 col-md-7 col-xs-offset-1 col-xs-7"> 
+          <h3 class="text-center">WELCOME TO THE BEAUTY AND HAIR</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ipsa placeat ea error quaerat soluta? perspiciatis unde omnis istes err sit voluptatem accusantium uae ab illo inventore.</p>
+          <ul>
+            <li>Class aptent taciti sociosqu ad litora toquent per conubia nostra</li>
+            <li>Sed ut perspiciatis unde omnis istes err sit voluptatem accusantium</li>
+            <li>Totam rem apreiam, eaque ipsa uae ab illo inventore veritatis et quasi</li>
+            <li>Aliquam ac egestas dui. Vetubulum quis magna eu elit mollis cursus vel</li>
+            <li>Mauris consectetur, elit ac faucibus commodo, ante dolor consectetur liber</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-right">
+          <h4>ABOUT US</h4>
+          <img class="img-left" src="assets/img/home1.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, a? Quae placeat vero molestiae nesciunt saepe deleniti dolorum illo numquam necessitatibus iusto tenetur quas quos consequatur inventore quisquam, officia.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quibusdam suscipit facilis aut non porro quidem! Temporibus, asperiores voluptatibus! Mollitia doloribus est provident adipisci beatae dicta deleniti placeat hic dolores.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod magni aspernatur quis, saepe eos harum provident cupiditate et, nihil soluta inventore dolore nam dicta quos, numquam iusto ex tempore sapiente?</p>
+        </div>
+        <div class="col-lg-6 text-left">
+          <h4>GIFT PROGRAM</h4>
+          <img class="img-right" src="assets/img/home2.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi rem quis non illum dolores officiis eius labore quidem maxime, aspernatur, blanditiis dolorum tempora fugit omnis esse voluptate repellat ipsa.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus alias at ipsa voluptas eligendi officia. Vel ea fuga consectetur iusto eum ab voluptatibus rem expedita. Commodi dignissimos blanditiis quo pariatur!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae libero dolor tempora perferendis. Praesentium veritatis quia doloremque, rem quidem expedita facere! Voluptatem et beatae eius, accusantium omnis fugiat repudiandae modi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6">
+          <h4>FOLLOW US</h4>
+          <img src="assets/img/facebook-logo-webtreatsetc.png" alt="">
+          <img src="assets/img/google-g-logo-webtreatsetc.png" alt="">
+          <img src="assets/img/twitter-bird3-webtreatsetc (1).png" alt="">
+          <img src="assets/img/rss-basic-webtreatsetc.png" alt="">
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <h4>PEOPLE ARE TALKING</h4>
+          <p class="text-justify"><b style="float: left; width: 20%;">"</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ipsum maiores voluptatum voluptates. Nihil eaque cumque, voluptatum dolorum aliquid aspernatur dolorem, porro beatae nostrum quis vero obcaecati tempora facilis consectetur.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-3">
+          <h4>CONTACT US</h4>
+          <h4>TOLL FREE: 1 800 987 65 43</h4>
+          <p>E-mail: email@demolink.org</p>
+          <h4>OUR ADDRESS</h4>
+          <p>17600 Yongue Biggest St, Toronto, L3Y 4Z1</p>
+        </div>
+      </div>
+      <hr>
+      <div class="col-lg-12 col-md-12 col-xs-12">
+        <p>DISCLAIMER: Revolutionary hair color fortifies every strand giving you shinier, helthier-looking hair & amazing base color paired with hints of red high & slow-lights for sultry color with amazing dimension.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
