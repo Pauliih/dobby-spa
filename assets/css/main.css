@@ -5873,4 +5873,17 @@ footer {
   footer b {
     font-size: 6em; }
 
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+q:before {
+  content: open-quote;
+  font-size: 7em; }
+
+q:after {
+  content: no-close-quote; }
+
+#welcome ul li {
+  list-style: none; }
+
 /*# sourceMappingURL=main.css.map */

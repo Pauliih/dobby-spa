@@ -60,7 +60,7 @@ font-family: $body_font;
 
 #about-us {
   background-color: $bg_aboutus;
-  color: #FADC9E;
+  color: $text_about;
   img {
     @include border-radius(12%);
   }
@@ -74,7 +74,7 @@ font-family: $body_font;
 
 footer {
   background-color: $bg_nav;
-  color: #FADC9E;
+  color: $text_about;
   img {
   @include border-circle(50%, 0.4em, solid, #E08663);
   background-color: #BFB68D;
@@ -82,4 +82,19 @@ footer {
   b {
     font-size: 6em;
   }
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+q:before {
+  content: open-quote;
+  font-size: 7em;
+}
+q:after {
+    content: no-close-quote;
+}
+
+#welcome ul li {
+  list-style: none;
 }
